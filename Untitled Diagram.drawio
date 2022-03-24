@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-24T02:16:01.676Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.38" etag="A28cxBOrNsb7pbm1Fb_c" version="17.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-24T17:54:40.167Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.38" etag="jgsGUwbXRBlSjc0cEpFi" version="17.2.1" type="github">
   <diagram id="2f404044-711c-603c-8f00-f6bb4c023d3c" name="Page-1">
     <mxGraphModel dx="1422" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="114" value="&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;Libvirt&lt;/font&gt;&lt;/b&gt;" style="rounded=0;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=2;fillColor=#97D077;gradientColor=none;fontSize=12;fontColor=#4277BB;align=left;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;spacingLeft=5;" parent="63" vertex="1">
           <mxGeometry x="37" y="116" width="23" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="115" value="&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;Baremetal Hypervisor&lt;/font&gt;&lt;/b&gt;" style="rounded=0;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=2;fillColor=#7EA6E0;gradientColor=none;fontSize=12;fontColor=#4277BB;align=left;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;spacingLeft=5;" parent="63" vertex="1">
+        <mxCell id="115" value="&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;Baremetal Hypervisor&lt;/font&gt;&lt;/b&gt;" style="rounded=0;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#0066CC;strokeWidth=2;fillColor=none;gradientColor=none;fontSize=12;fontColor=#4277BB;align=left;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;spacingLeft=5;" parent="63" vertex="1">
           <mxGeometry x="37" y="136" width="20" height="10" as="geometry" />
         </mxCell>
         <mxCell id="117" value="LEGEND" style="text;html=1;align=left;verticalAlign=middle;fontColor=#4277BB;shadow=0;dashed=0;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontStyle=1;fontSize=14;spacingLeft=0;" parent="63" vertex="1">
@@ -155,7 +155,7 @@
         <mxCell id="YF79DZ1GA7UTkaR4UJOx-433" value="&lt;b&gt;Support VMs&lt;/b&gt;" style="rounded=0;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#d79b00;strokeWidth=2;fillColor=#ffcd28;fontSize=12;align=left;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;spacingLeft=5;gradientColor=#ffa500;" vertex="1" parent="63">
           <mxGeometry x="37" y="196" width="20" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="YF79DZ1GA7UTkaR4UJOx-435" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontSize=17;fillColor=#fff2cc;gradientColor=#ffd966;strokeWidth=3;strokeColor=#009900;" vertex="1" parent="63">
+        <mxCell id="YF79DZ1GA7UTkaR4UJOx-435" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontSize=17;fillColor=#fff2cc;gradientColor=#ffd966;strokeWidth=3;strokeColor=#FFD966;" vertex="1" parent="63">
           <mxGeometry x="550" y="32" width="403" height="138" as="geometry" />
         </mxCell>
         <mxCell id="YF79DZ1GA7UTkaR4UJOx-245" value="" style="swimlane;shadow=0;labelBackgroundColor=#007FFF;strokeColor=#000000;fillColor=#e51400;fontColor=#ffffff;align=right;collapsible=0;startSize=0;strokeWidth=2;swimlaneFillColor=none;dashed=1;" vertex="1" parent="63">
