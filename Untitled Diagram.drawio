@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-04-03T21:14:23.019Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="b8GiK9WgaK6KUVLKR5Ns" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-03T21:17:05.356Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="WRQIL8qVpjNo6hst8kG5" version="17.4.0" type="github">
   <diagram id="2f404044-711c-603c-8f00-f6bb4c023d3c" name="Page-1">
     <mxGraphModel dx="1422" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="63" value="&lt;span style=&quot;color: rgb(66, 119, 187); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;Application component&lt;/span&gt;" style="swimlane;shadow=0;strokeColor=#7EA6E0;fillColor=#D4E1F5;align=right;startSize=0;collapsible=0;noLabel=1;strokeWidth=3;" parent="1" vertex="1">
+        <mxCell id="63" value="&lt;span style=&quot;color: rgb(66, 119, 187); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;Application component&lt;/span&gt;" style="swimlane;shadow=0;strokeColor=#0066cc;fillColor=#D4E1F5;align=right;startSize=0;collapsible=0;noLabel=1;strokeWidth=4;" parent="1" vertex="1">
           <mxGeometry x="80" y="40" width="980" height="710" as="geometry" />
         </mxCell>
         <mxCell id="102" value="&lt;font color=&quot;#000000&quot;&gt;Hypervisor Baremetal&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;fontColor=#4277BB;shadow=0;dashed=0;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontStyle=1;fontSize=16;spacingLeft=5;" parent="63" vertex="1">
