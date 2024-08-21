@@ -1,30 +1,30 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
-  <diagram name="Enhanced Ansible Async, Polling, and Batch Processing" id="vx14gWnAzM6jSeFqV80s">
+  <diagram name="Advanced Ansible Async, Polling, and Batch Processing">
     <mxGraphModel dx="2843" dy="1545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <!-- Ansible Playbook Start -->
-        <mxCell id="2" value="Ansible Playbook Start" style="whiteSpace=wrap;rounded=1;fillColor=#D9EAD3;strokeColor=#6AA84F;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="2" value="Ansible Playbook" style="whiteSpace=wrap;rounded=1;fillColor=#D9EAD3;strokeColor=#6AA84F;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="160" y="80" width="160" height="70" as="geometry" />
         </mxCell>
-        <!-- Async Task Execution -->
-        <mxCell id="3" value="Async Task Execution" style="whiteSpace=wrap;rounded=1;fillColor=#FCE5CD;strokeColor=#E69138;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="380" y="80" width="160" height="70" as="geometry" />
+        <!-- Async Parallel Task Execution -->
+        <mxCell id="3" value="Async Parallel Task Execution" style="whiteSpace=wrap;rounded=1;fillColor=#FCE5CD;strokeColor=#E69138;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="380" y="80" width="220" height="70" as="geometry" />
         </mxCell>
         <!-- Polling for Task Completion -->
-        <mxCell id="4" value="Polling for Task Completion" style="whiteSpace=wrap;rounded=1;fillColor=#CFE2F3;strokeColor=#3C78D8;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="600" y="80" width="160" height="70" as="geometry" />
+        <mxCell id="4" value="Polling for Task Completion (Check Status)" style="whiteSpace=wrap;rounded=1;fillColor=#CFE2F3;strokeColor=#3C78D8;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="650" y="80" width="220" height="70" as="geometry" />
         </mxCell>
-        <!-- Batch Processing -->
-        <mxCell id="5" value="Batch Processing" style="whiteSpace=wrap;rounded=1;fillColor=#FFF2CC;strokeColor=#FFD966;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="380" y="200" width="160" height="70" as="geometry" />
+        <!-- Batch Processing for Parallel Tasks -->
+        <mxCell id="5" value="Batch Processing for Parallel Tasks" style="whiteSpace=wrap;rounded=1;fillColor=#FFF2CC;strokeColor=#FFD966;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="650" y="200" width="220" height="70" as="geometry" />
         </mxCell>
         <!-- Tasks Completed -->
-        <mxCell id="6" value="Tasks Completed" style="whiteSpace=wrap;rounded=1;fillColor=#EAD1DC;strokeColor=#C27BA0;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="600" y="200" width="160" height="70" as="geometry" />
+        <mxCell id="6" value="All Tasks Completed" style="whiteSpace=wrap;rounded=1;fillColor=#EAD1DC;strokeColor=#C27BA0;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="900" y="80" width="160" height="70" as="geometry" />
         </mxCell>
-        <!-- Connectors between elements -->
+        <!-- Connecting lines -->
         <mxCell id="7" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1.01;exitY=0.5;entryX=0.01;entryY=0.5;" parent="1" source="2" target="3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
@@ -37,24 +37,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.84;exitY=1;entryX=0;entryY=0.5;" parent="1" source="3" target="5" edge="1">
+        <mxCell id="9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.84;exitY=1;entryX=0;entryY=0.5;" parent="1" source="4" target="5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="540" y="170" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0.5;entryX=0.24;entryY=0;" parent="1" source="4" target="6" edge="1">
+        <mxCell id="10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0.5;entryX=0.24;entryY=0;" parent="1" source="5" target="6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="680" y="100" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.24;entryY=1;" parent="1" source="5" target="6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="680" y="270" />
             </Array>
           </mxGeometry>
         </mxCell>
