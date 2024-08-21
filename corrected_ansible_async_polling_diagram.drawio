@@ -1,5 +1,5 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
-  <diagram name="Advanced Ansible Async, Polling, and Batch Processing">
+  <diagram name="Advanced Ansible Parallel Async Tasks and Batch Processing">
     <mxGraphModel dx="2843" dy="1545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -8,46 +8,61 @@
         <mxCell id="2" value="Ansible Playbook" style="whiteSpace=wrap;rounded=1;fillColor=#D9EAD3;strokeColor=#6AA84F;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="160" y="80" width="160" height="70" as="geometry" />
         </mxCell>
-        <!-- Async Parallel Task Execution -->
-        <mxCell id="3" value="Async Parallel Task Execution" style="whiteSpace=wrap;rounded=1;fillColor=#FCE5CD;strokeColor=#E69138;strokeWidth=2;" parent="1" vertex="1">
+        <!-- Parallel Async Tasks -->
+        <mxCell id="3" value="Parallel Async Tasks" style="whiteSpace=wrap;rounded=1;fillColor=#FCE5CD;strokeColor=#E69138;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="380" y="80" width="220" height="70" as="geometry" />
         </mxCell>
-        <!-- Polling for Task Completion -->
-        <mxCell id="4" value="Polling for Task Completion (Check Status)" style="whiteSpace=wrap;rounded=1;fillColor=#CFE2F3;strokeColor=#3C78D8;strokeWidth=2;" parent="1" vertex="1">
+        <!-- Task 1 -->
+        <mxCell id="4" value="Task 1" style="whiteSpace=wrap;fillColor=#F6B26B;strokeColor=#E69138;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="160" width="140" height="60" as="geometry" />
+        </mxCell>
+        <!-- Task 2 -->
+        <mxCell id="5" value="Task 2" style="whiteSpace=wrap;fillColor=#F6B26B;strokeColor=#E69138;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="230" width="140" height="60" as="geometry" />
+        </mxCell>
+        <!-- Task 3 -->
+        <mxCell id="6" value="Task 3" style="whiteSpace=wrap;fillColor=#F6B26B;strokeColor=#E69138;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="300" width="140" height="60" as="geometry" />
+        </mxCell>
+        <!-- Polling Mechanism for Tasks -->
+        <mxCell id="7" value="Polling for Status" style="whiteSpace=wrap;rounded=1;fillColor=#CFE2F3;strokeColor=#3C78D8;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="650" y="80" width="220" height="70" as="geometry" />
         </mxCell>
-        <!-- Batch Processing for Parallel Tasks -->
-        <mxCell id="5" value="Batch Processing for Parallel Tasks" style="whiteSpace=wrap;rounded=1;fillColor=#FFF2CC;strokeColor=#FFD966;strokeWidth=2;" parent="1" vertex="1">
+        <!-- Batch Processing -->
+        <mxCell id="8" value="Batch Processing (Group N Tasks)" style="whiteSpace=wrap;rounded=1;fillColor=#FFF2CC;strokeColor=#FFD966;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="650" y="200" width="220" height="70" as="geometry" />
         </mxCell>
-        <!-- Tasks Completed -->
-        <mxCell id="6" value="All Tasks Completed" style="whiteSpace=wrap;rounded=1;fillColor=#EAD1DC;strokeColor=#C27BA0;strokeWidth=2;" parent="1" vertex="1">
+        <!-- Completed Tasks -->
+        <mxCell id="9" value="All Tasks Completed" style="whiteSpace=wrap;rounded=1;fillColor=#EAD1DC;strokeColor=#C27BA0;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="900" y="80" width="160" height="70" as="geometry" />
         </mxCell>
-        <!-- Connecting lines -->
-        <mxCell id="7" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1.01;exitY=0.5;entryX=0.01;entryY=0.5;" parent="1" source="2" target="3" edge="1">
+        <!-- Connecting Lines -->
+        <mxCell id="10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1.01;exitY=0.5;entryX=0.01;entryY=0.5;" parent="1" source="2" target="3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.84;exitY=0;entryX=0;entryY=0.5;" parent="1" source="3" target="4" edge="1">
+        <!-- Connections between Async Tasks and Polling -->
+        <mxCell id="11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.84;exitY=0;entryX=0;entryY=0.5;" parent="1" source="3" target="7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="540" y="100" />
+              <mxPoint x="560" y="100" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.84;exitY=1;entryX=0;entryY=0.5;" parent="1" source="4" target="5" edge="1">
+        <!-- Connections from Polling to Batch Processing -->
+        <mxCell id="12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.84;exitY=1;entryX=0;entryY=0.5;" parent="1" source="7" target="8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="540" y="170" />
+              <mxPoint x="560" y="170" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0.5;entryX=0.24;entryY=0;" parent="1" source="5" target="6" edge="1">
+        <!-- Connections from Batch Processing to Completed Tasks -->
+        <mxCell id="13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0.5;entryX=0.24;entryY=0;" parent="1" source="8" target="9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="680" y="100" />
+              <mxPoint x="800" y="100" />
             </Array>
           </mxGeometry>
         </mxCell>
