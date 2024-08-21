@@ -13,13 +13,13 @@
         <mxCell id="3" value="Preflight Parallel Async Tasks" style="whiteSpace=wrap;rounded=1;fillColor=#FCE5CD;strokeColor=#FF0000;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="380" y="80" width="220" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Task 1" style="whiteSpace=wrap;fillColor=#00CCCC;strokeColor=#006EAF;rounded=1;fontColor=#000000;gradientColor=none;shadow=0;glass=1;" parent="1" vertex="1">
+        <mxCell id="4" value="Task 1" style="whiteSpace=wrap;fillColor=#32CAE2;strokeColor=#006EAF;rounded=1;fontColor=#000000;gradientColor=none;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="420" y="180" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="Task 2" style="whiteSpace=wrap;fillColor=#00CCCC;strokeColor=#006EAF;rounded=1;fontColor=#000000;glass=1;" parent="1" vertex="1">
+        <mxCell id="5" value="Task 2" style="whiteSpace=wrap;fillColor=#1EB4FC;strokeColor=#006EAF;rounded=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="420" y="225" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="Task N" style="whiteSpace=wrap;fillColor=#00CCCC;strokeColor=#006EAF;rounded=1;fontColor=#000000;glass=1;" parent="1" vertex="1">
+        <mxCell id="6" value="Task N" style="whiteSpace=wrap;fillColor=#1ba1e2;strokeColor=#006EAF;rounded=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="420" y="270" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7" value="Polling for Status" style="whiteSpace=wrap;rounded=1;fillColor=#CFE2F3;strokeColor=#FF0000;strokeWidth=2;" parent="1" vertex="1">
