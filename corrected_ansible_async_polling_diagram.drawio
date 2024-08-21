@@ -1,23 +1,23 @@
 <mxfile host="app.diagrams.net" modified="2024-08-21T10:35:00Z" agent="diagram-editor">
-	<diagram name="Corrected Ansible Async and Polling Diagram">
+	<diagram name="Ansible Async and Polling Diagram (Fixed)">
 		<mxGraphModel dx="1460" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" math="0" shadow="0">
 			<root>
 				<mxCell id="0" />
 				<mxCell id="1" parent="0" />
 				<mxCell id="2" value="Ansible Playbook" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9EAD3;strokeColor=#6AA84F;" vertex="1" parent="1">
-					<mxGeometry x="160" y="80" width="160" height="70" as_="geometry" />
+					<mxGeometry x="160" y="80" width="160" height="70" as="geometry" />
 				</mxCell>
 				<mxCell id="3" value="Async Task Execution" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE5CD;strokeColor=#E69138;" vertex="1" parent="1">
-					<mxGeometry x="380" y="80" width="160" height="70" as_="geometry" />
+					<mxGeometry x="380" y="80" width="160" height="70" as="geometry" />
 				</mxCell>
 				<mxCell id="4" value="Polling for Status" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CFE2F3;strokeColor=#3C78D8;" vertex="1" parent="1">
-					<mxGeometry x="600" y="80" width="160" height="70" as_="geometry" />
+					<mxGeometry x="600" y="80" width="160" height="70" as="geometry" />
 				</mxCell>
 				<mxCell id="5" value="Batch Processing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FFD966;" vertex="1" parent="1">
-					<mxGeometry x="380" y="200" width="160" height="70" as_="geometry" />
+					<mxGeometry x="380" y="200" width="160" height="70" as="geometry" />
 				</mxCell>
 				<mxCell id="6" value="Tasks Completed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAD1DC;strokeColor=#C27BA0;" vertex="1" parent="1">
-					<mxGeometry x="600" y="200" width="160" height="70" as_="geometry" />
+					<mxGeometry x="600" y="200" width="160" height="70" as="geometry" />
 				</mxCell>
 				<mxCell id="7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;" edge="1" parent="1" source="2" target="3" />
 				<mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;" edge="1" parent="1" source="3" target="4" />
