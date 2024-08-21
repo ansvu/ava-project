@@ -7,17 +7,20 @@
         <mxCell id="2" value="Ansible Playbook" style="whiteSpace=wrap;rounded=1;fillColor=#D9EAD3;strokeColor=#6AA84F;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="160" y="80" width="160" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="_Ft6uO0aBXgPhCpx3oMC-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3" value="Parallel Async Tasks" style="whiteSpace=wrap;rounded=1;fillColor=#FCE5CD;strokeColor=#E69138;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="380" y="80" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="4" value="Task 1" style="whiteSpace=wrap;fillColor=#F6B26B;strokeColor=#E69138;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="420" y="160" width="140" height="60" as="geometry" />
+          <mxGeometry x="420" y="180" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5" value="Task 2" style="whiteSpace=wrap;fillColor=#F6B26B;strokeColor=#E69138;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="420" y="200" width="140" height="60" as="geometry" />
+          <mxGeometry x="420" y="220" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="Task 3" style="whiteSpace=wrap;fillColor=#F6B26B;strokeColor=#E69138;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="420" y="240" width="140" height="60" as="geometry" />
+        <mxCell id="6" value="Task N" style="whiteSpace=wrap;fillColor=#F6B26B;strokeColor=#E69138;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="260" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7" value="Polling for Status" style="whiteSpace=wrap;rounded=1;fillColor=#CFE2F3;strokeColor=#3C78D8;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="650" y="80" width="220" height="70" as="geometry" />
