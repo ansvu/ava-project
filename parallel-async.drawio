@@ -16,7 +16,7 @@
         <mxCell id="UZ6z63PBR_mP9AQWy_mo-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UZ6z63PBR_mP9AQWy_mo-3" target="UZ6z63PBR_mP9AQWy_mo-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UZ6z63PBR_mP9AQWy_mo-3" value="&lt;b&gt;Preflight&lt;/b&gt;&amp;nbsp;Scan Task Initialize" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1CF047;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+        <mxCell id="UZ6z63PBR_mP9AQWy_mo-3" value="&lt;b&gt;Preflight&lt;/b&gt;&amp;nbsp;Scan Task Initialize&lt;br&gt;&amp;nbsp;(&lt;b&gt;async&lt;/b&gt;: 600, &lt;b&gt;poll&lt;/b&gt;: 0)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1CF047;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="150" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UZ6z63PBR_mP9AQWy_mo-4" value="&lt;b&gt;Batch&lt;/b&gt; i: Scan N Images" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;shadow=1;fontColor=#000000;" vertex="1" parent="1">
