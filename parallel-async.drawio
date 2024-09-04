@@ -81,7 +81,7 @@
         </mxCell>
         <mxCell id="UZ6z63PBR_mP9AQWy_mo-28" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UZ6z63PBR_mP9AQWy_mo-27">
           <mxGeometry x="-0.1259" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="1" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UZ6z63PBR_mP9AQWy_mo-29" value="&lt;b&gt;Next Batch &lt;/b&gt;i: Scan N Images" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;shadow=1;fontColor=#000000;" vertex="1" parent="1">
@@ -110,6 +110,16 @@
         <mxCell id="UZ6z63PBR_mP9AQWy_mo-33" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UZ6z63PBR_mP9AQWy_mo-32">
           <mxGeometry x="-0.1259" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UZ6z63PBR_mP9AQWy_mo-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="UZ6z63PBR_mP9AQWy_mo-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="663" y="505" as="sourcePoint" />
+            <mxPoint x="741" y="221" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="741" y="505" />
+              <mxPoint x="741" y="234" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
