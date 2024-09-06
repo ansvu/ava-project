@@ -25,12 +25,13 @@
         <mxCell id="UZ6z63PBR_mP9AQWy_mo-7" value="&lt;b&gt;Check&lt;/b&gt; Back &lt;b&gt;async tasks&lt;/b&gt; with &lt;b&gt;&lt;font color=&quot;#0000cc&quot;&gt;asysnc_status&lt;/font&gt;&lt;/b&gt; (until job_result.&lt;b&gt;finished&lt;/b&gt;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66FF66;strokeColor=#82b366;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="429" y="65" width="200" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="UZ6z63PBR_mP9AQWy_mo-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.51;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;dashed=1;strokeColor=#000099;" parent="1" target="UZ6z63PBR_mP9AQWy_mo-7" edge="1">
+        <mxCell id="UZ6z63PBR_mP9AQWy_mo-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.51;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;dashed=1;strokeColor=#000099;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="UZ6z63PBR_mP9AQWy_mo-7" edge="1" source="UZ6z63PBR_mP9AQWy_mo-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="248" y="240" as="sourcePoint" />
             <mxPoint x="531" y="60" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="361" y="240" />
+              <mxPoint x="312" y="260" />
+              <mxPoint x="361" y="260" />
               <mxPoint x="361" y="40" />
               <mxPoint x="531" y="40" />
               <mxPoint x="531" y="50" />
