@@ -1,9 +1,425 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.3">
   <diagram name="Page-1" id="nlCb6KvLv5G4nCpKGgX3">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zV0qhTu272EKjw6aGA8E-98" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;html=1;rounded=0;entryX=0.493;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#146614;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="84" y="2500" as="sourcePoint" />
+            <mxPoint x="84.00000000000004" y="81.89999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-1" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;shadow=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="10" y="15" width="150" height="2466" as="geometry" />
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-2" value="Preflight Scan" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=70;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;shadow=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="220" y="10" width="150" height="2496" as="geometry" />
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-3" value="Chart-verifier" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=70;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;shadow=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="470" y="10" width="150" height="2476" as="geometry" />
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-4" value="DCI-Pipeline" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=70;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;shadow=1;fontStyle=1;textShadow=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="10" width="150" height="2476" as="geometry" />
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-5" value="Connect.redhat.com" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=70;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;shadow=1;textShadow=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="960" y="10" width="160" height="2476" as="geometry" />
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-6" value="Certification ready Container, Helmchart, CNF" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=70;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;fontStyle=1;textShadow=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="10" width="200" height="2466" as="geometry" />
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-7" value="Openshift-helm-charts/chart" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;textShadow=1;shadow=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1560" y="15" width="170" height="2486" as="geometry" />
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-8" value="CNF certification suite" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;fontStyle=1;shadow=1;textShadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="15" width="181" height="2476" as="geometry" />
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-9" value="CNF Cert-OPs case" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;fontStyle=1;shadow=1;fontSize=13;textShadow=1;" vertex="1" parent="1">
+          <mxGeometry x="2160" y="15" width="162" height="2476" as="geometry" />
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-10" value="Red Hat online Catalog" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;shadow=1;fontStyle=1;fontSize=13;textShadow=1;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="15" width="150" height="2466" as="geometry" />
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-15" value="" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#6c8ebf;height=20;width=0;fillColor=#dae8fc;gradientColor=#7ea6e0;gradientDirection=south;swimlaneFillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="760" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-16" value="" style="text;strokeColor=none;fillColor=#99FFFF;align=center;verticalAlign=middle;whiteSpace=wrap;labelBackgroundColor=#99FFFF;textShadow=1;labelBorderColor=default;" vertex="1" parent="zV0qhTu272EKjw6aGA8E-15">
+          <mxGeometry width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-17" value="" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=0" vertex="1" parent="1">
+          <mxGeometry x="790" y="1337" width="348" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-18" value="" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="zV0qhTu272EKjw6aGA8E-17">
+          <mxGeometry width="348" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-19" value="" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=0" vertex="1" parent="1">
+          <mxGeometry x="842" y="2012" width="243" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-20" value="" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="zV0qhTu272EKjw6aGA8E-19">
+          <mxGeometry width="243" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-21" value="" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=0" vertex="1" parent="1">
+          <mxGeometry x="2728" y="2335" width="706" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-22" value="" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="zV0qhTu272EKjw6aGA8E-21">
+          <mxGeometry width="706" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-23" value="Start preflight scan" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-1" target="zV0qhTu272EKjw6aGA8E-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="251" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-25" value="Check all test cases" style="curved=1;endArrow=block;rounded=0;endFill=0;fillColor=#0050ef;strokeColor=#001DBC;strokeWidth=2;fontColor=default;fontSize=15;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-2" target="zV0qhTu272EKjw6aGA8E-2">
+          <mxGeometry x="-0.9171" y="10" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="220" />
+              <mxPoint x="350" y="250" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-27" value="All container test cases passed" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-2" target="zV0qhTu272EKjw6aGA8E-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="254" y="312" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-29" value="Run chart-verifier" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=15;strokeWidth=2;endFill=0;strokeColor=#000099;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-1" target="zV0qhTu272EKjw6aGA8E-3">
+          <mxGeometry x="0.0239" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="351" y="358" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-33" value="All Helm chart Test cases passed" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=15;strokeWidth=2;endFill=0;strokeColor=#000099;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-3" target="zV0qhTu272EKjw6aGA8E-1">
+          <mxGeometry x="0.0196" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="354" y="480" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-35" value="Run CNF certification suite" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;strokeWidth=2;endFill=0;strokeColor=#000099;fontSize=15;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-1" target="zV0qhTu272EKjw6aGA8E-8">
+          <mxGeometry x="-0.0837" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1315" y="526" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-39" value="CNF Test cases passed or reviewed" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;strokeWidth=2;strokeColor=#000099;fontSize=15;endFill=0;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-8" target="zV0qhTu272EKjw6aGA8E-1">
+          <mxGeometry x="0.0946" y="-8" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1318" y="648" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-41" value="Start oneshot certification automation" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;strokeWidth=2;strokeColor=#000099;endFill=0;fontSize=14;labelBorderColor=none;labelBackgroundColor=#66CC00;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-1" target="zV0qhTu272EKjw6aGA8E-4">
+          <mxGeometry x="-0.0535" y="4" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="537" y="724" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-45" value="Create container project,update, attach to PL" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-4" target="zV0qhTu272EKjw6aGA8E-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1296" y="965" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-47" value="Invoke Preflight" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-4" target="zV0qhTu272EKjw6aGA8E-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="688" y="1011" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-49" value="Preflight test each container sequencially" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-2" target="zV0qhTu272EKjw6aGA8E-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1165" y="1057" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-51" value="Preflight submit test report to each container project" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-2" target="zV0qhTu272EKjw6aGA8E-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="1103" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-53" value="Start update, attach container project, CVE scan" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-5" target="zV0qhTu272EKjw6aGA8E-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1664" y="1149" />
+              <mxPoint x="1664" y="1179" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-55" value="Request to publish the container" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-5" target="zV0qhTu272EKjw6aGA8E-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2526" y="1225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-57" value="Wait for 1hr, and query container publication status" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-4" target="zV0qhTu272EKjw6aGA8E-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1296" y="1271" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-59" value="Confirmation of Container publication" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-5" target="zV0qhTu272EKjw6aGA8E-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1299" y="1317" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-61" value="Start oneshot helmchart certification process" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-4" target="zV0qhTu272EKjw6aGA8E-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1014" y="1383" />
+              <mxPoint x="1014" y="1413" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-63" value="Start create helm chart project, update, attach PL and PR to create OWNERS file" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-4" target="zV0qhTu272EKjw6aGA8E-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1296" y="1548" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-65" value="Request PR to create / update OWNERS file" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-5" target="zV0qhTu272EKjw6aGA8E-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1946" y="1594" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-67" value="Wait for OWNERS file PR to be completed" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-5" target="zV0qhTu272EKjw6aGA8E-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1946" y="1640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-69" value="Invoke chart-verifier" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-4" target="zV0qhTu272EKjw6aGA8E-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="788" y="1686" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-71" value="Deploy helmchart, run chart-verifier testing" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-3" target="zV0qhTu272EKjw6aGA8E-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1265" y="1732" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-73" value="Report.yaml generated" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-3" target="zV0qhTu272EKjw6aGA8E-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="785" y="1778" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-75" value="Start Helm Chart Report with/without chart PR merge to public Chart repository" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-4" target="zV0qhTu272EKjw6aGA8E-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1621" y="1824" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-77" value="Wait for PR verification to be completed" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-7" target="zV0qhTu272EKjw6aGA8E-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2314" y="1870" />
+              <mxPoint x="2314" y="1900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-78" value="28" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" vertex="1" parent="zV0qhTu272EKjw6aGA8E-77">
+          <mxGeometry width="14" height="14" relative="1" as="geometry">
+            <mxPoint x="-57" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-79" value="Confirm Helm Chart is merged" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-7" target="zV0qhTu272EKjw6aGA8E-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1949" y="1946" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-81" value="Helm chart project is published to catalog" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-5" target="zV0qhTu272EKjw6aGA8E-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2526" y="1992" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-83" value="Start CNF certification process" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-4" target="zV0qhTu272EKjw6aGA8E-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1014" y="2058" />
+              <mxPoint x="1014" y="2088" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-85" value="Start CNF project creation and attach PL" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-4" target="zV0qhTu272EKjw6aGA8E-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1296" y="2223" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-87" value="Open CNF cert-ops case automatically" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-5" target="zV0qhTu272EKjw6aGA8E-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2184" y="2269" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-88" value="33" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" vertex="1" parent="zV0qhTu272EKjw6aGA8E-87">
+          <mxGeometry width="14" height="14" relative="1" as="geometry">
+            <mxPoint x="-570.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-89" value="Invoke CNF certification suite and running test and submit reports to DCI server" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-4" target="zV0qhTu272EKjw6aGA8E-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1748" y="2315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-91" value="Review CNF test report and Manually approve CNF project to be published to catalog" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-9" target="zV0qhTu272EKjw6aGA8E-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3089" y="2381" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-94" value="Pipeline jobs: certification project create, update, attach PL, CVE scan, submit, publish" style="fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=auto;fontSize=12;gradientColor=#ffd966;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="620" y="890" width="350" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-95" value="Pipeline jobs: create, update, attach PL, deploy, helmchart PR" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="636" y="1480" width="424" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-96" value="Pipeline jobs: Openshift-cnf project create, attach PL, create support case" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="684" y="2148" width="557" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-111" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;html=1;rounded=0;strokeColor=#146614;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="295" y="2480" as="sourcePoint" />
+            <mxPoint x="295" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-112" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;html=1;rounded=0;strokeColor=#146614;strokeWidth=2;entryX=0.493;entryY=0.028;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="540" y="2481" as="sourcePoint" />
+            <mxPoint x="540" y="81.32799999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-113" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;html=1;rounded=0;strokeColor=#146614;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="795" y="2480" as="sourcePoint" />
+            <mxPoint x="795" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-114" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;html=1;rounded=0;strokeColor=#146614;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1040" y="2481" as="sourcePoint" />
+            <mxPoint x="1039.5" y="81" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-115" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;html=1;rounded=0;entryX=0.5;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#146614;strokeWidth=2;" edge="1" parent="1" target="zV0qhTu272EKjw6aGA8E-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1350" y="2480" as="sourcePoint" />
+            <mxPoint x="1544.5" y="77.89999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-116" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;html=1;rounded=0;strokeColor=#146614;strokeWidth=2;" edge="1" parent="1" target="zV0qhTu272EKjw6aGA8E-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1884.5" y="2496" as="sourcePoint" />
+            <mxPoint x="1885" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-117" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;html=1;rounded=0;strokeColor=#146614;strokeWidth=2;" edge="1" parent="1" target="zV0qhTu272EKjw6aGA8E-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2210" y="2496" as="sourcePoint" />
+            <mxPoint x="2210" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-124" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Start Preliminary Testing&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE599;strokeColor=#d6b656;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="110" width="750" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-126" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;html=1;rounded=0;entryX=0.5;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#146614;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1647.25" y="2496" as="sourcePoint" />
+            <mxPoint x="1642.75" y="82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-127" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;html=1;rounded=0;entryX=0.5;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#146614;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1932.75" y="2496" as="sourcePoint" />
+            <mxPoint x="1928.25" y="82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-128" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;html=1;rounded=0;entryX=0.5;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#146614;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2243.25" y="2496" as="sourcePoint" />
+            <mxPoint x="2238.75" y="82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-129" value="" style="endArrow=none;startArrow=none;endFill=0;startFill=0;html=1;rounded=0;strokeColor=#146614;strokeWidth=2;entryX=0.533;entryY=0.026;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="zV0qhTu272EKjw6aGA8E-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2524.5" y="2491" as="sourcePoint" />
+            <mxPoint x="2520" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-130" value="Verify test cases" style="curved=1;endArrow=block;rounded=0;endFill=0;fillColor=#0050ef;strokeColor=#001DBC;strokeWidth=2;fontColor=default;fontSize=15;exitX=0.467;exitY=0.162;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="zV0qhTu272EKjw6aGA8E-3">
+          <mxGeometry x="-0.8556" y="20" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="585.5" y="410" />
+              <mxPoint x="595.5" y="440" />
+            </Array>
+            <mxPoint x="550" y="410" as="sourcePoint" />
+            <mxPoint x="540.5" y="440" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-132" value="Verify test cases" style="curved=1;endArrow=block;rounded=0;endFill=0;fillColor=#0050ef;strokeColor=#001DBC;strokeWidth=2;fontColor=default;fontSize=15;" edge="1" parent="1">
+          <mxGeometry x="-0.8556" y="20" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1975.5" y="580" />
+              <mxPoint x="1985.5" y="610" />
+            </Array>
+            <mxPoint x="1930" y="580" as="sourcePoint" />
+            <mxPoint x="1930.5" y="610" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zV0qhTu272EKjw6aGA8E-145" value="Start container certification process" style="curved=1;endArrow=block;rounded=0;endFill=0;fillColor=#0050ef;strokeColor=#001DBC;strokeWidth=2;fontColor=default;fontSize=15;exitX=0.467;exitY=0.162;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry x="-0.7677" y="16" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840.5" y="805" />
+              <mxPoint x="850.5" y="835" />
+            </Array>
+            <mxPoint x="795" y="806" as="sourcePoint" />
+            <mxPoint x="795.5" y="835" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
